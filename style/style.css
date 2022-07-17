@@ -1,0 +1,49 @@
+body{
+	width: 100%;
+	min-height: 100vh;
+    background-color: rgb(18, 224, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container{
+    width: 40vw;
+    display: block;
+    background-color: rgb(110, 106, 106);
+    padding: 100px;
+    box-shadow: 30px 30px 60px black ;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content h3{
+    padding: 20px;
+    color: black;
+    font-size: 18pt;
+}
+
+.content #result{
+    padding: 20px;
+    color: black;
+    font-size: 15pt;
+}
+.content #cpfNumber{
+    margin: 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+}
+
+.content #btn{
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
